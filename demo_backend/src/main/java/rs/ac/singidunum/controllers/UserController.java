@@ -23,20 +23,28 @@ public class UserController {
         return "Home page";
     }
 
-    @GetMapping("getAllUsers")
+    @GetMapping("/getAllUsers")
     @CrossOrigin()
     public List<UserModel> getAll()
     {
         return iUserService.getAll();
     }
 
-    @PostMapping("create")
-    public UserModel Create(String firstName,String lastName,String email)
+    @PostMapping("/create")
+
+   public UserModel Create(String firstName,String lastName,String email)
     {
-        UserModel model = new UserModel();
-        model.setFirstName(firstName);
+
+
+       UserModel model = new UserModel();
+
         model.setLastName(lastName);
+        model.setFirstName(firstName);
         model.setEmail(email);
+
+
+
+
         return iUserService.Create(model);
     }
 }

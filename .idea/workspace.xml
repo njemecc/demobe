@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="191bfda3-6223-4c01-9b55-fde12a6f692c" name="Changes" comment="&quot;dodavanje unversioned files-a&quot;" />
+    <list default="true" id="191bfda3-6223-4c01-9b55-fde12a6f692c" name="Changes" comment="&quot;dodavanje unversioned files-a&quot;">
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/config/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/config/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/constants/ConfigurationConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/enums/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/AuthenticationRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/AuthenticationResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/RegisterRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/repositories/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/repositories/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/services/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/jwt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +111,8 @@
       <workItem from="1683542450019" duration="603000" />
       <workItem from="1683653585054" duration="624000" />
       <workItem from="1683654840489" duration="20000" />
+      <workItem from="1684235243693" duration="10000" />
+      <workItem from="1684332521327" duration="529000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dodavanje unversioned files-a&quot;">
       <created>1683467398033</created>

@@ -9,5 +9,7 @@ public interface IUserService {
      List<UserModel> getAll();
 
 
+     UserModel findByEmail(String email);
+
     UserModel Create(UserModel model);
 }

@@ -10,7 +10,7 @@ import java.util.List;
 @Service()
 public class UserService implements IUserService{
 
-    private IUserRepository iUserRepository;
+    private final IUserRepository iUserRepository;
 
     public UserService(IUserRepository iUserRepository){
         this.iUserRepository = iUserRepository;
@@ -19,6 +19,11 @@ public class UserService implements IUserService{
     public List<UserModel> getAll() {
 
         return iUserRepository.findAll();
+    }
+
+    @Override
+    public UserModel findByEmail(String email){
+        return IUserRepository.findByEmail(email);
     }
 
     @Override

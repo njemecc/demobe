@@ -1,6 +1,10 @@
 package rs.ac.singidunum.controllers;
 
 
+import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import rs.ac.singidunum.models.UserModel;
 import rs.ac.singidunum.services.IUserService;
@@ -32,19 +36,18 @@ public class UserController {
 
     @PostMapping("/create")
 
-   public UserModel Create(String firstName,String lastName,String email)
+   public ResponseEntity<?> Create(@Valid UserModel model, BindingResult result)
     {
 
-
-       UserModel model = new UserModel();
-
-        model.setLastName(lastName);
-        model.setFirstName(firstName);
-        model.setEmail(email);
+if(result.hasErrors())
+{
+    return new ResponseEntity<>(result.getAllErrors().toString(), HttpStatus.BAD_REQUEST);
+}
 
 
 
 
-        return iUserService.Create(model);
+
+       return  new ResponseEntity<>(iUserService.Create(model),HttpStatus.OK);
     }
 }

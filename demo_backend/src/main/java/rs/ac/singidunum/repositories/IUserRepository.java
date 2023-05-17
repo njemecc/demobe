@@ -7,4 +7,6 @@ import rs.ac.singidunum.models.UserModel;
 @Repository
 public interface IUserRepository extends JpaRepository<UserModel, Integer> {
 
+    UserModel findByEmail(String Email);
+
 }

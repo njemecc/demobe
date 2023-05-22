@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="191bfda3-6223-4c01-9b55-fde12a6f692c" name="Changes" comment="&quot;dodavanje unversioned files-a&quot;" />
+    <list default="true" id="191bfda3-6223-4c01-9b55-fde12a6f692c" name="Changes" comment="&quot;dodavanje unversioned files-a&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_backend/src/main/java/rs/ac/singidunum/models/UserModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/DE-1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/validacija&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +98,8 @@
       <workItem from="1683542450019" duration="603000" />
       <workItem from="1683653585054" duration="624000" />
       <workItem from="1683654840489" duration="20000" />
+      <workItem from="1683728525891" duration="435000" />
+      <workItem from="1683881487310" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dodavanje unversioned files-a&quot;">
       <created>1683467398033</created>
@@ -119,7 +126,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/validacija" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

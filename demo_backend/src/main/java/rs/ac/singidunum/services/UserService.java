@@ -10,7 +10,7 @@ import java.util.List;
 @Service()
 public class UserService implements IUserService{
 
-    private IUserRepository iUserRepository;
+    private final IUserRepository iUserRepository;
 
     public UserService(IUserRepository iUserRepository){
         this.iUserRepository = iUserRepository;
